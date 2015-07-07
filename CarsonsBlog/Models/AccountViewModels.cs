@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace CarsonsBlog.Models
@@ -65,6 +66,11 @@ namespace CarsonsBlog.Models
     public class RegisterViewModel
     {
         [Required]
+        [DisplayName]
+        [Display(Name = "Username")]
+        public string Username { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
@@ -109,4 +115,5 @@ namespace CarsonsBlog.Models
         [Display(Name = "Email")]
         public string Email { get; set; }
     }
+
 }
