@@ -1,0 +1,6 @@
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\NightValeSite\NightValeSite\bin\NightValeSite.dll.config
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\NightValeSite\NightValeSite\bin\NightValeSite.dll
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\NightValeSite\NightValeSite\bin\NightValeSite.pdb
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\NightValeSite\NightValeSite\obj\Debug\NightValeSite.csprojResolveAssemblyReference.cache
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\NightValeSite\NightValeSite\obj\Debug\NightValeSite.dll
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\NightValeSite\NightValeSite\obj\Debug\NightValeSite.pdb
