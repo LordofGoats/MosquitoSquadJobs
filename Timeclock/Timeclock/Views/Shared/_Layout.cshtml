@@ -11,22 +11,28 @@
 </head>
 <body>
     <div id="wrapper">
-        <nav class="navbar navbar-default top-navbar" role="navigation">
-                @Html.ActionLink("PunchCard", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        <nav class="navbar navbar-default top-navbar">
+            @Html.ActionLink("PunchCard", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             <div class="nav navbar-right">
                 @Html.Partial("_LoginPartial")
             </div>
         </nav>
         <nav class="navbar-default navbar-side" role="navigation">
-                <div class="sidebar-collapse">
-                    <ul class="nav" id="main-menu">
-                        <li><a href="@Url.Action("CompanyMain", "Company")"><i class="fa fa-simplybuilt fa-fw"></i> Your Company</a></li>    
-                        <li><a href="@Url.Action("HoursMain", "Hours")"><i class="fa fa-building-o fa-fw"></i> Hours</a></li>
-                        <li><a href="@Url.Action("ManagersMain", "Managers")"><i class="fa fa-gavel fa-fw"></i> Managers</a></li>
-                        <li><a href="@Url.Action("EmployeeMain", "Employees")"><i class="fa fa-child fa-fw"></i> Employees</a></li>
-                        <li><a href="@Url.Action("", "")"><i class="fa fa-cog fa-fw"></i> Settings</a></li>
-                    </ul>
-                </div>
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li><a href="@Url.Action("CompanyMain", "Company")"><i class="fa fa-simplybuilt fa-fw"></i> Your Company</a></li>
+                    <li><a href="@Url.Action("HoursMain", "Hours")"><i class="fa fa-building-o fa-fw"></i> Hours</a></li>
+                    <li><a href="@Url.Action("ManagersMain", "Managers")"><i class="fa fa-gavel fa-fw"></i> Managers</a></li>
+                    <li><a href="@Url.Action("EmployeeMain", "Employees")"><i class="fa fa-child fa-fw"></i> Employees</a></li>
+                    <li><a href="@Url.Action("Index", "Manage")"><i class="fa fa-cog fa-fw"></i> Settings <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href=""></a></li>
+                            <li>Crockery</li>
+                            <li>Rooster</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div id="page-wrapper">
             <div class="page-inner">
@@ -40,7 +46,6 @@
             </div>
         </div>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
