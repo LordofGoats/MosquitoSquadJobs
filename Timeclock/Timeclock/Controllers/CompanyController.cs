@@ -17,7 +17,7 @@ namespace Timeclock.Controllers
         // GET: Company
         public ActionResult CompanyMain()
         {
-            return View();
+            return View(db.CompanyModels.ToList());
         }
 
         // GET: Company/Details/5

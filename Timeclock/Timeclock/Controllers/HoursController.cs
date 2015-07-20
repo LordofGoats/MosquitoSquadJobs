@@ -17,7 +17,7 @@ namespace Timeclock.Controllers
         // GET: Hours
         public ActionResult HoursMain()
         {
-            return View();
+            return View(db.HoursModels.ToList());
         }
 
         // GET: Hours/Details/5

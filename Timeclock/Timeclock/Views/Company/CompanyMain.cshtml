@@ -4,9 +4,13 @@
     ViewBag.Title = "Your Company";
 }
 
-<h2>Index</h2>
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="page-header">@Html.DisplayNameFor(model => model.companyName)</h1>
+    </div>
+</div>
 
-<p>
+@*<p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
@@ -34,6 +38,6 @@
             @Html.ActionLink("Delete", "Delete", new { id=item.companyName })
         </td>
     </tr>
-}
+}*@
 
 </table>
