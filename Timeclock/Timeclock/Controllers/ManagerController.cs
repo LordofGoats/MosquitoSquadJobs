@@ -52,7 +52,7 @@ namespace Timeclock.Controllers
             {
                 db.ManagersModels.Add(managersModel);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("ManagerMain");
             }
 
             return View(managersModel);
@@ -84,7 +84,7 @@ namespace Timeclock.Controllers
             {
                 db.Entry(managersModel).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("ManagerMain");
             }
             return View(managersModel);
         }
@@ -112,7 +112,7 @@ namespace Timeclock.Controllers
             ManagersModel managersModel = db.ManagersModels.Find(id);
             db.ManagersModels.Remove(managersModel);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("ManagerMain");
         }
 
         protected override void Dispose(bool disposing)

@@ -107,3 +107,4 @@ C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\Timeclock\Timeclock\bin\Microsof
 C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\Timeclock\Timeclock\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\Timeclock\Timeclock\obj\Debug\Timeclock.dll
 C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\Timeclock\Timeclock\obj\Debug\Timeclock.pdb
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\Timeclock\Timeclock\obj\Debug\Timeclock.csprojResolveAssemblyReference.cache
