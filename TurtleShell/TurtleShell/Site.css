@@ -1,0 +1,35 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body {
+    background-color: lightblue
+}
+.shell {
+    border: 1px solid black;
+    background-color: limegreen;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin: 3px;
+    position: relative;
+    z-index: 1;
+}
+.body {
+    border: 1px solid black;
+    background-color: darkgreen;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin: 3px;
+    z-index: -1;
+    position: relative;
+    display: none;
+}
+button {
+    border-radius: 3px;
+    margin: auto;
+}

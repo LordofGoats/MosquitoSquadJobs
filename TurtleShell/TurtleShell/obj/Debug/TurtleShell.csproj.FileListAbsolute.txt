@@ -1,0 +1,6 @@
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\TurtleShell\TurtleShell\bin\TurtleShell.dll.config
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\TurtleShell\TurtleShell\bin\TurtleShell.dll
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\TurtleShell\TurtleShell\bin\TurtleShell.pdb
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\TurtleShell\TurtleShell\obj\Debug\TurtleShell.csprojResolveAssemblyReference.cache
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\TurtleShell\TurtleShell\obj\Debug\TurtleShell.dll
+C:\Users\mlb\Documents\GitHub\MosquitoSquadJobs\TurtleShell\TurtleShell\obj\Debug\TurtleShell.pdb
