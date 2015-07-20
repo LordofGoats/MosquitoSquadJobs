@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Timeclock.Models.CompanyModel>
+
+@{
+    ViewBag.Title = "Your Company";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.companyNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.companyDescription)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.companyNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.companyDescription)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.companyName }) |
+            @Html.ActionLink("Details", "Details", new { id=item.companyName }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.companyName })
+        </td>
+    </tr>
+}
+
+</table>

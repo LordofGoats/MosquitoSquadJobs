@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity.Core;
+using System.ComponentModel.DataAnnotations;
 
 namespace Timeclock.Models
 {
-    internal class EmployeeView
+    public class EmployeeModel
     {
-
+        [Key]
         public string firstName { get; set;}
         public string lastName { get; set; }
         public int idNumber { get; set; }

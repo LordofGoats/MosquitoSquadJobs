@@ -29,5 +29,13 @@ namespace Timeclock.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Timeclock.Models.EmployeeModel> Employees { get; set; }
+
+        public System.Data.Entity.DbSet<Timeclock.Models.CompanyModel> CompanyModels { get; set; }
+
+        public System.Data.Entity.DbSet<Timeclock.Models.HoursModel> HoursModels { get; set; }
+
+        public System.Data.Entity.DbSet<Timeclock.Models.ManagersModel> ManagersModels { get; set; }
     }
 }

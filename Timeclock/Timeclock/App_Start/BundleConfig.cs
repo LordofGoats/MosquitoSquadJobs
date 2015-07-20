@@ -26,16 +26,8 @@ namespace Timeclock
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
-                      "~/Content/elegant-icons-style.css",
-                      "~/Content/font-awesome.css",
-                      "~/Content/font-awesome-min.css",
-                      "~/Content/jquery-ui-1.10.4.min.css",
-                      "~/Content/jquery-jvectormap-1.2.2.css",
-                      "~/Content/line-icons.css",
-                      "~/Content/style-responsive.css",
-                      "~/Content/style.css",
-                      "~/Content/widgets.css",
-                      "~/Content/xcharts.min.css"));
+                      "~/Content/custom-styles.css",
+                      "~/Content/font-awesome.css"));
         }
     }
 }
