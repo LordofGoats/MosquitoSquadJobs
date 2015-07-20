@@ -256,6 +256,7 @@
     <Content Include="Views\Managers\Details.cshtml" />
     <Content Include="Views\Managers\Edit.cshtml" />
     <Content Include="Views\Managers\ManagersMain.cshtml" />
+    <Content Include="TimeclockDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
